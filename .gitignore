@@ -1,0 +1,78 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pt
+*.pth
+
+venv/
+env/
+.venv/
+
+.ipynb_checkpoints/
+
+.cache/
+*.cache/
+cache/
+
+# personal photos
+backend/storage/user_photos/
+data/my_photos/
+
+# Clothing images collected for fine-tuning
+backend/storage/garments/
+data/garments/
+
+# Intermediate warped cloth images
+backend/storage/warped/
+
+# Outputs of try-on
+backend/storage/outputs/
+
+# Training datasets
+data/paired/
+data/datasets/
+datasets/
+
+# Large model files
+backend/segmentation/models/
+backend/pose/models/
+backend/tryon/models/
+models/
+checkpoints/
+weights/
+
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+.vscode/
+*.code-workspace
+
+.idea/
+
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+browser-extension/dist/
+browser-extension/build/
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Env variables
+.env
+.env.*
+*.env
+
+*.tmp
+*.swp
+*.bak
+
+.initial_folder_structure.txt
