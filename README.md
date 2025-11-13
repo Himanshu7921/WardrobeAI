@@ -24,6 +24,21 @@ This repository provides a complete backend pipeline, frontend viewer, and brows
 
 ---
 
+## Models Used
+
+WardrobeAI uses a three-model architecture to achieve accurate virtual try-on results:
+
+**Human Parsing Model (Model-1): SCHP**
+Used to segment body regions such as skin, hair, face, and existing clothing. This enables accurate removal of original garments and precise placement of new clothing items.
+
+**Pose Estimation Model (Model-2): OpenPose**
+Used to extract 2D body keypoints including shoulders, elbows, wrists, and torso orientation. This information guides garment alignment and warping based on the user’s posture.
+
+**Try-On Generation Model (Model-3): HR-VITON**
+Used to warp the input garment, blend it with the user’s segmented body, and generate a photorealistic final try-on image. HR-VITON provides high-resolution outputs and stable results.
+
+---
+
 ## System Architecture
 
 WardrobeAI is structured into three primary components:
