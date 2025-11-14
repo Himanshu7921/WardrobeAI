@@ -1,7 +1,14 @@
+# For Segmentations and Masking extraction
 numpy==1.26.4
 matplotlib==3.7.2
+kiwisolver==1.4.5
 torch --index-url https://download.pytorch.org/whl/cpu
 transformers
 regex==2023.6.3
 pillow==10.2.0
 pandas==2.0.3
+
+# For Pose Estimation
+mediapipe==0.10.11
+opencv-python==4.7.0.72
+opencv-contrib-python==4.7.0.72
