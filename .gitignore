@@ -20,7 +20,7 @@ cache/
 backend/storage/user_photos/
 data/my_photos/
 data/
-/experiments/output/masks
+/experiments/output
 
 # Clothing images collected for fine-tuning
 backend/storage/garments/
