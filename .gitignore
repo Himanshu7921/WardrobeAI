@@ -19,6 +19,7 @@ cache/
 # personal photos
 backend/storage/user_photos/
 data/my_photos/
+data/
 
 # Clothing images collected for fine-tuning
 backend/storage/garments/
